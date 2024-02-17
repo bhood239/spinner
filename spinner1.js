@@ -6,4 +6,5 @@ setTimeout(() => {process.stdout.write('\r|  ')}, 900);
 setTimeout(() => {process.stdout.write('\r/  ')}, 1100);
 setTimeout(() => {process.stdout.write('\r-  ')}, 1300);
 setTimeout(() => {process.stdout.write('\r\\  ')}, 1500);
-setTimeout(() => {process.stdout.write('\n')}, 1700);
+setTimeout(() => {process.stdout.write('\r|  ')}, 1700);
+setTimeout(() => {process.stdout.write('\n')}, 1900);
